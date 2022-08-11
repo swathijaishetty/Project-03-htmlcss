@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Red Rose";
+}
+.bg img{
+    height:auto;
+    width:100%;
+    position: relative;
+    top: 10px;
+}
+
+body{
+    background-color: #2b2922;
+    height:50vh;
+}
+.navbar{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+    padding: 20px 40px;
+    
+    }
+    
+.list-item{
+      display: inline-block;
+      -ms-flex-align: end;
+      margin:0 40px;
+      align-items: center;
+      position: relative;
+      left:120px;
+}
+.logo{
+   position: relative;
+   right: 120px;
+   height:40px;
+   width:auto;
+}    
+h1{
+    color: #fff;
+    font-size: 80px;
+
+}
+.hero-heading{
+    height: 300px;
+    width:600px;
+    position: relative;
+    top: 45px;
+    left: 140px;
+}
+p{
+    color: aliceblue;
+    width: 300px;
+    height: 300px;
+}
+
+.para{
+    position: absolute;
+    right:280px;
+    top:200px;
+}
+
+ button{
+    background-color: #2b2922;
+    color: #a08f36;
+    border: 2px solid  #a08f36;
+    font-size: 20px;
+ }
+ .button-small{
+    height:auto;
+    width:150px;
+    padding:10px;
+ }
+li:first-child{
+    color: #fff;
+}
